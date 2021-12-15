@@ -1,0 +1,5 @@
+package org.myddd.vertx.eventsourcing
+
+import org.myddd.vertx.base.BusinessLogicException
+
+class InventoryShortageException:BusinessLogicException(InventoryErrorCode.INVENTORY_SHORTAGE)

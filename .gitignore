@@ -1,0 +1,8 @@
+.gradle
+**/*/build
+.idea
+**/*.class
+build
+example/comment-infra/out
+**/*/out
+**/*.DS_Store
